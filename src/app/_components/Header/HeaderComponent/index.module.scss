@@ -1,0 +1,21 @@
+.header{
+    padding:36px 0 ; //36px on top and bottom et 0 on left and right 
+
+}
+
+.wrap{
+    display: flex; 
+    align-items:center; 
+    justify-content: space-between; 
+    flex-wrap:wrap; 
+    gap:calc(--base) /2 var(--base)  //calc var(--base/2)-->row gap and var(--base)-->column gap
+
+}
+
+.logo{
+    width:170px; 
+}
+
+.hide {
+    display:none; 
+}

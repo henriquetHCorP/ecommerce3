@@ -73,8 +73,8 @@ const Products: CollectionConfig = {
           fields: [
             {
               name: 'layout',
-              type: 'blocks',
-              required: true,
+              type: 'blocks',    
+              required:false,         
               blocks: [CallToAction, Content, MediaBlock, Archive],
             },
           ],
