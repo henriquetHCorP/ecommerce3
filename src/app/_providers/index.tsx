@@ -18,8 +18,8 @@ export const Providers: React.FC<{
         <FilterProvider>
         <CartProvider>{children}</CartProvider>
         </FilterProvider>
-        <RelatedProducts/>
-        <UserInfo/> 
+       
+        
       </AuthProvider>
     </ThemeProvider>
   )
